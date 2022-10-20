@@ -2,8 +2,7 @@
 
 This is a simple country auto complete component that uses https://restcountries.com/ to get the list of countries.
 
-![Demo Video](./demo.webm)
-
+![Demo GIF](demo.gif)
 
 ### Demo
 
