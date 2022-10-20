@@ -1,0 +1,49 @@
+.suggestion {
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px
+}
+
+.suggestion:hover {
+    background-color: #bbb;
+}
+
+.row {
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+    width: 100%
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    font-size: 16px;
+}
+
+.subtitle {
+    font-size: 12px;
+}
+
+.flag-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flag {
+    object-fit: cover;
+    width: auto;
+    height: 24px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.highlight {
+    background-color: yellow
+}
